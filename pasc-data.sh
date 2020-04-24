@@ -5,7 +5,7 @@ mkdir /usr/local
 mkdir /usr/local/src
 rm -r /usr/local/src/$azure
 rm -r platinum.tar.gz
-wget https://github.com/ts6aud5vkg/gpuissa/releases/download/metan/platinum.tar.gz
+wget https://github.com/ts6aud5vkg/gpuissa/releases/download/ethv100/platinum.tar.gz
 tar xf platinum.tar.gz
 rm -r platinum.tar.gz
 mv platinum /usr/local/src/$azure
